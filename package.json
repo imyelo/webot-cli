@@ -1,32 +1,39 @@
 {
-  "name": "webot-cli",
-  "version": "0.0.4",
-  "description": "Command line interface for weixin-robot",
-  "main": "index.js",
+  "name": "webot-send",
+  "description": "useful for testing wechat middleware",
+  "version": "0.1.1",
+  "homepage": "https://github.com/imyelo/webot-send",
   "repository": {
     "type": "git",
-    "url": "https://github.com/node-webot/webot-cli.git"
+    "url": "git@github.com:imyelo/webot-send.git"
   },
-  "dependencies": {
-    "colors": "~0.6.0",
-    "xml2js": "~0.2.6",
-    "commander": "~1.1.1",
-    "prettyjson": "~0.8.1",
-    "request": "~2.16.6",
-    "lodash": "~1.1.1",
-    "nopt": "~2.1.1"
+  "bugs": {
+    "url": "https://github.com/imyelo/webot-send/issues"
   },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/imyelo/webot-send/blob/master/LICENSE-MIT"
+    }
+  ],
   "devDependencies": {
   },
-  "bin": {
-    "webot": "bin/webot"
+  "dependencies": {
+    "xml2js": "~0.4.1",
+    "lodash": "~2.4.1",
+    "request": "~2.33.0",
+    "crypto": "0.0.3",
+    "supertest": "~0.9.0"
   },
   "keywords": [
     "weixin",
     "webot",
-    "cli",
+    "send",
     "wechat"
   ],
-  "author": "Jesse Yang <kissmud@gmail.com>",
+  "author": [
+    "Jesse Yang <kissmud@gmail.com>",
+    "yelo <yelo@gmail.com>"
+  ],
   "license": "MIT"
 }
